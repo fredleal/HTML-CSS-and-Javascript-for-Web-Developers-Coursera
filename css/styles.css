@@ -10,7 +10,7 @@ div > p {
     line-height: 20px;
 }
 .content-cell {
-    background-color: #88DD88;
+    background-color: #99b4b9;
     margin-bottom: 10px;
     padding: 10px 15px;
 }
@@ -31,7 +31,7 @@ div > p {
     }
 
     .navbar-toggle{
-        background-color: #BBEABB;
+        background-color: #bbe1ea;
     }
 
     .content-cell {
@@ -40,7 +40,7 @@ div > p {
     }
 
     #collapsable-nav {
-		background-color: #BBEABB;
+		background-color: #bbe1ea;
     }
 
     #nav-list {
