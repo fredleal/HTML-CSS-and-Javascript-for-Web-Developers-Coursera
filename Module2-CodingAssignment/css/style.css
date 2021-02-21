@@ -1,0 +1,77 @@
+h1 {
+    text-align: center;
+}
+
+.mdiv {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+h2 {  
+    text-align: right;
+    border : 2px solid black;
+    border-radius: 5px;
+    margin: 0 0 0 auto;
+    padding: 3px;
+    width: 150px;
+  
+}
+
+#title1 {
+    background-color: pink;
+}
+#title2 {
+    background-color: red;
+    color: white;
+}
+#title3 {
+    background-color: orange;
+}
+
+#box1, #box2, #box3 {
+    background-color: #808080;
+    width: 25%;
+    padding: 10px;
+    margin: 35px;
+    border: 2px solid black;
+    float: left;
+    box-sizing: border-box;
+
+}
+
+/************ Desktop version *************/
+@media (max-width: 992px) {
+   #box1, #box2, #box3 {
+        width: 100%;
+    }
+
+}
+
+/************ Tablet version ***********/
+@media (min-width: 768px) and (max-width: 991px) {
+    #box1, #box2, #box3{
+         float: left;
+    }
+
+    #box1 {
+        flex: 25%; 
+    }
+
+    #box2 {
+        flex: 25%;
+    }
+    
+    #box3 {
+        flex: 50%;
+    }
+}
+
+/************ Mobile version *********/
+@media (max-width: 767px) {
+   #box1, #box2, #box3{
+        width: 100%;
+}
+   
+};
